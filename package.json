@@ -1,0 +1,48 @@
+{
+  "name": "kalshi-wrapped",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Generate a personal Kalshi Wrapped and expose read-only portfolio APIs.",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build --turbopack",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@radix-ui/react-popover": "^1.1.15",
+    "@radix-ui/react-progress": "^1.1.7",
+    "@radix-ui/react-select": "^2.2.6",
+    "@radix-ui/react-slot": "^1.2.3",
+    "@radix-ui/react-switch": "^1.2.6",
+    "@supabase/supabase-js": "^2.57.4",
+    "@vercel/analytics": "^1.5.0",
+    "ag-grid-community": "^34.2.0",
+    "ag-grid-react": "^34.2.0",
+    "chart.js": "^4.5.0",
+    "chrono-node": "^2.9.0",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "date-fns": "^4.1.0",
+    "framer-motion": "^11.0.0",
+    "html-to-image": "^1.11.13",
+    "lucide-react": "^0.544.0",
+    "next": "15.5.3",
+    "next-themes": "^0.4.6",
+    "react": "19.1.0",
+    "react-chartjs-2": "^5.3.0",
+    "react-day-picker": "^9.11.0",
+    "react-dom": "19.1.0",
+    "recharts": "^3.3.0",
+    "tailwind-merge": "^3.3.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "tailwindcss": "^4",
+    "tw-animate-css": "^1.3.8",
+    "typescript": "^5"
+  }
+}
